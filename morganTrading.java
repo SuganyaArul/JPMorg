@@ -20,7 +20,7 @@ public class morganTrading {
 		Date tempDate=newDateFormat.parse("12/09/2017");
 		String formattedDate = newDateFormat.format(tempDate);
 		data.setInstructionDate(formattedDate);
-		Date tempDate1=newDateFormat.parse("14/09/2017");
+		Date tempDate1=newDateFormat.parse("16/09/2017");
 		String formattedDate1 = newDateFormat.format(tempDate1);
 		data.setSettlementDate(formattedDate1);
 		data.setUnits(500);
@@ -36,7 +36,7 @@ public class morganTrading {
 		Date tempDate2=newDateFormat.parse("12/09/2017");
 		String formattedDate2 = newDateFormat.format(tempDate2);
 		data1.setInstructionDate(formattedDate2);
-		Date tempDate3=newDateFormat.parse("14/09/2017");
+		Date tempDate3=newDateFormat.parse("20/09/2017");
 		String formattedDate3 = newDateFormat.format(tempDate3);
 		data1.setSettlementDate(formattedDate3);
 		data1.setUnits(450);
